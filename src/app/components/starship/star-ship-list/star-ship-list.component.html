@@ -1,0 +1,10 @@
+<div class="image-list imageContainer" ldImages>
+    <app-starship-card *ngFor="let starship of paginatorStarship?.results"
+    [starship]="starship" title="click here to view details"></app-starship-card>
+</div>
+<mat-paginator [length]="paginatorStarship?.count"
+                [pageSize]="pagesize"
+                showFirstLastButtons
+                [hidePageSize]="true"
+                (page)="changePage($event)">
+</mat-paginator>
