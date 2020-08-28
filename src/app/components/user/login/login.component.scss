@@ -1,0 +1,32 @@
+  
+$button_purpure: #451e89;
+
+:host {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+  font-family: "BasisGrotesque-Regular-Pro";
+}
+
+
+
+button {
+  width: 100%;
+}
+
+
+.btn-login{
+    color: #fff !important;
+    background-color: #b99d6b !important;
+    border-color: #b99d6b !important;
+}
+
+
+.text-center{
+  text-align: center;
+}
